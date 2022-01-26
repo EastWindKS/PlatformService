@@ -27,6 +27,7 @@ namespace PlatformService.Data
                 new Platform {Name = "Test Name 2", Publisher = "Publisher 2", Cost = "Free"},
                 new Platform {Name = "Test Name 3", Publisher = "Publisher 3", Cost = "Free"}
             );
+
             appDbContext.SaveChangesAsync();
         }
     }
